@@ -36,7 +36,7 @@ class ContactPage extends StatelessWidget {
                 child: ListTile(
                   leading: const Icon(Icons.email, color: Colors.blue),
                   title: const Text("Email"),
-                  subtitle: const Text("contact@escep.edu"),
+                  subtitle: const Text("info@esce-niger.ne"),
                 ),
               ),
 
@@ -51,7 +51,7 @@ class ContactPage extends StatelessWidget {
                 child: ListTile(
                   leading: const Icon(Icons.phone, color: Colors.green),
                   title: const Text("Téléphone"),
-                  subtitle: const Text("+227 90 57 57 74"),
+                  subtitle: const Text("+227 20 73 47 57"),
                 ),
               ),
 
@@ -66,7 +66,8 @@ class ContactPage extends StatelessWidget {
                 child: ListTile(
                   leading: const Icon(Icons.location_on, color: Colors.red),
                   title: const Text("Adresse"),
-                  subtitle: const Text("Niamey, Niger"),
+                  subtitle: const Text("Rue des Grandes Écoles \n"
+                      "BP: 207 Niamey-Niger"),
                 ),
               ),
 

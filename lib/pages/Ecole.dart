@@ -21,7 +21,7 @@ class EcolePage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Image.asset('assets/images/3.jpg'),
+          Image.asset('assets/images/2.jpg'),
           const SizedBox(height: 16),
 
           const Text(
